@@ -1,0 +1,67 @@
+{
+  "name": "3dprintable_landing_page",
+  "version": "0.1.0",
+  "description": "Landing Page for the 3DPrintable project",
+  "author": "bryce.palichuk@3dprintable.io and erik.thornborough@3dprintable.io",
+  "homepage": ".",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mdi/react": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^4.5.2",
+    "dotenv": "^10.0.0",
+    "identicon.js": "^2.3.3",
+    "loadash": "^1.0.0",
+    "package.json": "^2.0.1",
+    "react": "17.0.2",
+    "react-blockies": "^1.4.1",
+    "react-bootstrap": "1.3.0",
+    "react-dom": "17.0.1",
+    "react-nbsp": "^1.2.4",
+    "react-redux": "7.2.2",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^3.4.4",
+    "react-typing-effect": "2.0.4",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "reselect": "4.0.0",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ]
+}
