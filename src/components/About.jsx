@@ -21,7 +21,7 @@ const About = () => {
                                 3DPrintable is a Web3 gateway and marketplace for 3D Printing. This means that we provide 
                                 the tools for users to buy and sell files for 3D printing using blockchain technology. 
                                 NFTs are minted for every file uploaded to our platform and recorded to a public blockchain. 
-                                The file is then stored and encyrpted using a decentrailized storage protocol called IPFS.
+                                The file is then stored and encrypted using a decentrailized storage protocol called IPFS.
                                 Crypto currencies are used as the medium of exchange for the files. This could be a native 
                                 blockchain currency such as Ethereum or a stablecoin such as USDC. The choice is up to the 
                                 creator on what medium exchange and value they desire. Once the NFT token has been

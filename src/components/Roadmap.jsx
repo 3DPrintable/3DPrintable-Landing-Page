@@ -67,7 +67,6 @@ const Roadmap = () => {
 									<p class="text-muted mb-0">Q1, 2022</p>
 									<h6 class="mb-0 mt-1">Launch Landing Page</h6>
 									<h6 class="mb-0 mt-1">Launch "Rariable Lazy Mint" App</h6>
-									<h6 class="mb-0 mt-1">Publish V1 Whitepaper</h6>
 								</div>
 							</div>
 
@@ -77,6 +76,7 @@ const Roadmap = () => {
 										<i class="iconify" data-icon="healthicons:market-stall"></i>
 									</div>
 									<p class="text-muted mb-0">Q2, 2022</p>
+									<h6 class="mb-0 mt-1">Publish V1 Whitepaper</h6>
 									<h6 class="mb-0 mt-1">Launch Multi-Chain Marketplace</h6>
 								</div>
 							</div>
