@@ -19,11 +19,11 @@ const About = () => {
                             <h4 class="title text-white title-dark fw-medium mb-4">About 3DPrintable</h4>
                             <p class="text-white-50 para-desc mx-auto mb-0" align="justify">
                                 3DPrintable is a Web3 gateway for 3D Printing. This means that we provide 
-                                the tools for users create NFTs from files used for 3D printing. 
+                                the tools for users to create NFTs from files used for 3D printing. 
                                 NFTs are minted for every file uploaded to our platform and recorded to a public blockchain. 
                                 The file is then stored and encrypted using a decentrailized storage protocol called IPFS.
                                 Crypto currencies are used as the medium of exchange for the files. This could be a native 
-                                blockchain currency such as Ethereum or a stablecoin such as USDC. The choice is up to the 
+                                blockchain currency (such as ETH) or a stablecoin (such as USDC). The choice is up to the 
                                 creator on what medium exchange and value they desire. Once the NFT token has been
                                 minted to a public blockchain, the NFT owner can list the file for sale on any third party 
                                 marketplace built within that blokchcain ecosystem. 
