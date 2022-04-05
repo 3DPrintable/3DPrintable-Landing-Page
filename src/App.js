@@ -111,7 +111,7 @@ const App = () => {
                                             </ul>
                                     </li>
                                 <li>
-                                    <a href="https://9t43vhusxxf7.usemoralis.com/" target="_blank" rel="noopener noreferrer" id="a" >
+                                    <a href="https://app.3dprintable.io" target="_blank" rel="noopener noreferrer" id="a" >
                                         <button class="btn btn-primary">Enter App</button>
                                     </a>
                                 </li>
