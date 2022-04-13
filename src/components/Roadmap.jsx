@@ -25,7 +25,7 @@ const Roadmap = () => {
 		{/* End hero */}
 
 		{/* Start Roadmap */}
-		<section class="section bg-light" id="roadmap">
+		<section class="section bg" id="roadmap">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
