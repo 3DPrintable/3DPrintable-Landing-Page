@@ -60,6 +60,7 @@ p {
     transition-delay: 0s;
   border-radius: 5px;
   margin-bottom: 0;
+  margin-right: 5px;
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -187,7 +188,7 @@ p {
 
 a {
   margin-left: 5px;
-  color: black;  
+  color: black; 
 }
 
   .hide {
