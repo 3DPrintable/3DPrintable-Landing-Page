@@ -13,7 +13,7 @@ import {
   Error
 } from "./components";
 import './components/Style.css'
-import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects,  } from '@material-ui/icons'; //Work=Careers and Assignment=Whitepaper
+import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects } from '@material-ui/icons'; //Work=Careers and Assignment=Whitepaper
 import Logo from './components/images/3DPrintable_Logo_WhiteType.png'; // Logo
 
 const App = () => {
@@ -31,6 +31,7 @@ const App = () => {
   return (
 
     <div className="App">
+
       {/* Start Loader */}
       <div id="preloader">
             <div id="status">
@@ -56,7 +57,7 @@ const App = () => {
                     {/* Start mobile */}
                     <div class="menu-extras">
                     <div class="menu-item">
-                    <a href="/#" onClick={handleToggle}>{navbarOpen}
+                    <a href="#/" onClick={handleToggle}>{navbarOpen}
                         <div class="toggle-container">
                             <div class="bar1"></div>
                             <div class="bar2"></div>
@@ -87,7 +88,7 @@ const App = () => {
                             <ul class="navigation-menu nav-right nav-light">
                                     <li>
                                         <a href="/" class="sub-menu-item">
-                                            <button class="btns btns-outline-header" >Home
+                                            <button class="btns btns-outline-header">Home
                                             </button>
                                             </a>
                                     </li>
