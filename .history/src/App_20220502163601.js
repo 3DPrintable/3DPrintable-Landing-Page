@@ -3,19 +3,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { 
   Home, 
   About, 
-  Contact,  
+  Contact, 
+  Careers, 
   Features, 
   FAQs, 
   Team, 
-  Roadmap,  
+  Roadmap, 
+  Whitepaper, 
   Error
 } from "./components";
-import './components/Style.css';
-import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects, ArrowForward, Security, List } from '@material-ui/icons'; // Twitter
-// import { Icon } from '@iconify/react'; Discord
+import './components/Style.css'
+import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects, ArrowForward } from '@material-ui/icons'; //Work=Careers and Assignment=Whitepaper
 import Logo from './components/images/3DPrintable_Logo_WhiteType.png'; // Logo
-import Privacy_Policy from './components/Documents/3DPRINTABLE PRIVACY POLICY.pdf';
-import Terms from './components/Documents/3DPRINTABLE TERMS AND CONDITIONS.pdf';
 
 const App = () => {
 
@@ -72,7 +71,9 @@ const App = () => {
                                 <li><Extension/><a href="Features" class="sub-menu-item"> Features</a></li>
                                 <li><Group/><a href="Team" class="sub-menu-item"> Team</a></li>
                                 <li><Map/><a href="Roadmap" class="sub-menu-item"> Roadmap</a></li>
+                                {/* <li><Work/><a href="Careers" class="sub-menu-item"> Career</a></li> */}
                                 <li><Help/><a href="FAQs" class="sub-menu-item">FAQs </a></li>
+                                {/* <li><Assignment/><a href="Whitepaper" class="sub-menu-item">Whitepaper </a></li> */}
                                 <li><ContactSupport/><a href="Contact" class="sub-menu-item">Contact Us</a></li>
                                 <li><ArrowForward/><a href="https://app.3dprintable.io" target="_blank" rel="noopener noreferrer" id="a">Enter App</a></li>
                             </ul>
@@ -104,7 +105,9 @@ const App = () => {
                                             <li><a href="Features" class="sub-menu-item"> Features</a></li>
                                             <li><a href="Team" class="sub-menu-item"> Team</a></li>
                                             <li><a href="Roadmap" class="sub-menu-item"> Roadmap</a></li>
+                                            {/* <li><a href="Careers" class="sub-menu-item"> Career</a></li> */}
                                             <li><a href="FAQs" class="sub-menu-item">FAQs </a></li>
+                                            {/* <li><a href="Whitepaper" class="sub-menu-item">Whitepaper </a></li> */}
                                             <li><a href="Contact" class="sub-menu-item">Contact Us</a></li>
                                         </ul>
                                 </li>
@@ -125,10 +128,12 @@ const App = () => {
                 <Route path="/" element={<Home/>} onClick={() => closeMenu()}/>
                 <Route path="/about" element={<About/>} onClick={() => closeMenu()}/>
                 <Route path="/contact" element={<Contact/>} onClick={() => closeMenu()}/>
+                <Route path="/careers" element={<Careers/>} onClick={() => closeMenu()}/>
                 <Route path="/features" element={<Features/>} onClick={() => closeMenu()}/>
                 <Route path="/faqs" element={<FAQs/>} onClick={() => closeMenu()}/>
                 <Route path="/team" element={<Team/>} onClick={() => closeMenu()}/>
                 <Route path="/roadmap" element={<Roadmap/>} onClick={() => closeMenu()}/>
+                <Route path="/whitepaper" element={<Whitepaper/>} onClick={() => closeMenu()}/>
                 <Route path="/error" element={<Error/>} onClick={() => closeMenu()}/>
             </Routes>
             </BrowserRouter>
@@ -166,29 +171,42 @@ const App = () => {
                         <div class="col-12">
                             <div class="footer-py-100 footer-border-top">
                                 <div class="row">
-                                    {/* <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                                         <a href="/#" class="logo-footer">
                                             <img src={Logo} height="75" alt="" />
                                         </a>
-                                        <p> Vist 3DPrintable's Twitter and Discord by clicking the links below.</p>
                                         <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
-                                            <li><Twitter/><a href="/#" ></a></li>
-                                            <li><Icon icon="mdi:discord" /><a href="/#" class="fea icon-m fea-social"></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="twitter" class="fea icon-sm fea-social"></i></a>
+                                            </li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded">
+                                                <i data-feather="discord" class="fea icon-sm fea-social"></i></a>
+                                            </li>
                                         </ul>
-                                    </div> */}
+                                    </div>
 
-                                    <div class="col-lg-2 col-md-4 col-16 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                         <h5 class="text-light footer-head">Company</h5>
-                                        <ul class="list-unstyled footer-list mt-4">
-                                            <li><EmojiObjects/><a href="About" class="sub-menu-item"> About </a></li>
-                                            <li><Extension/><a href="Features" class="sub-menu-item"> Features</a></li>
-                                            <li><Group/><a href="Team" class="sub-menu-item"> Team</a></li>
-                                            <li><Map/><a href="Roadmap" class="sub-menu-item"> Roadmap</a></li>
-                                            <li><Help/><a href="FAQs" class="sub-menu-item">FAQs </a></li>
-                                            <li><ContactSupport/><a href="Contact" class="sub-menu-item">Contact Us</a></li>
-                                            <li><Security/><a href={Privacy_Policy} target="_blank" rel="noopener noreferrer" class="sub-menu-item">Privacy Policy</a></li>
-                                            <li><List/><a href={Terms} target="_blank" rel="noopener noreferrer" class="sub-menu-item">Terms</a></li>
-                                        </ul>
+                                        {/* <ul class="list-unstyled footer-list mt-4">
+                                            <li><a href="aboutus.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>About</a></li>
+                                            <li><a href="market-price.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Marketplace</a></li>
+                                            <li><a href="token.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Sell Token</a></li>
+                                            <li><a href="team.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Team</a></li>
+                                            <li><a href="roadmap.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Roadmap</a></li>
+                                            <li><a href="mission.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Mission</a></li>
+                                            <li><a href="whitepaper.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Whitepaper</a></li>
+                                            <li><a href="blog.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>News</a></li>
+                                            <li><a href="contact.html" class="text-foot"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Contact Us</a></li>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +219,7 @@ const App = () => {
                         <div class="row align-items-center">
                             <div class="col-sm-8">
                                 <div class="text-sm-start text-center">
-                                    <p class="mb-0 text-foot">© 2022 3DPrintable, All rights reserved. </p>
+                                    <p class="mb-0 text-foot">© 2022 3DPrintable </p>
                                 </div>
                             </div>
                         </div>

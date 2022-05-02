@@ -201,7 +201,7 @@ const App = () => {
                         <div class="row align-items-center">
                             <div class="col-sm-8">
                                 <div class="text-sm-start text-center">
-                                    <p class="mb-0 text-foot">© 2022 3DPrintable, All rights reserved. </p>
+                                    <p class="mb-0 text-foot">© 2022 3DPrintable, All Rights reserved. </p>
                                 </div>
                             </div>
                         </div>

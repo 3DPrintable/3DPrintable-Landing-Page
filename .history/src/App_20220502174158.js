@@ -166,16 +166,16 @@ const App = () => {
                         <div class="col-12">
                             <div class="footer-py-100 footer-border-top">
                                 <div class="row">
-                                    {/* <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                                         <a href="/#" class="logo-footer">
                                             <img src={Logo} height="75" alt="" />
                                         </a>
-                                        <p> Vist 3DPrintable's Twitter and Discord by clicking the links below.</p>
-                                        <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        {/* <p> Vist 3DPrintable's Twitter and Discord by clicking the links below.</p> */}
+                                        {/* <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                                             <li><Twitter/><a href="/#" ></a></li>
                                             <li><Icon icon="mdi:discord" /><a href="/#" class="fea icon-m fea-social"></a></li>
-                                        </ul>
-                                    </div> */}
+                                        </ul> */}
+                                    </div>
 
                                     <div class="col-lg-2 col-md-4 col-16 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                         <h5 class="text-light footer-head">Company</h5>
@@ -201,7 +201,7 @@ const App = () => {
                         <div class="row align-items-center">
                             <div class="col-sm-8">
                                 <div class="text-sm-start text-center">
-                                    <p class="mb-0 text-foot">© 2022 3DPrintable, All rights reserved. </p>
+                                    <p class="mb-0 text-foot">© 2022 3DPrintable </p>
                                 </div>
                             </div>
                         </div>

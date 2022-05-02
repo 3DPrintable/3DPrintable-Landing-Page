@@ -76,7 +76,8 @@ const Roadmap = () => {
 										<i class="iconify" data-icon="healthicons:market-stall"></i>
 									</div>
 									<p class="text-muted mb-0">Q2, 2022</p>
-									<h6 class="mb-0 mt-1">Create NFT Minting Drop</h6>
+									<h6 class="mb-0 mt-1">Publish V1 Whitepaper</h6>
+									<h6 class="mb-0 mt-1">Launch Multi-Chain Marketplace</h6>
 								</div>
 							</div>
 
@@ -86,7 +87,7 @@ const Roadmap = () => {
 										<i class="iconify" data-icon="ant-design:picture-filled"></i>
 									</div>
 									<p class="text-muted mb-0">Q3, 2022</p>
-									<h6 class="mb-0 mt-1">Launch Multi-Chain Marketplace</h6>
+									<h6 class="mb-0 mt-1">Create NFT Minting Drop</h6>
 								</div>
 							</div>
 
