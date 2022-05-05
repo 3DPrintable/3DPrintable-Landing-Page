@@ -11,7 +11,7 @@ import {
   Error
 } from "./components";
 import './components/Style.css';
-import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects, ArrowForward } from '@material-ui/icons'; // Twitter
+import { House, Group, ContactSupport, Map, Help, Extension, EmojiObjects, ArrowForward, Security, List } from '@material-ui/icons'; // Twitter
 // import { Icon } from '@iconify/react'; Discord
 import Logo from './components/images/3DPrintable_Logo_WhiteType.png'; // Logo
 import Privacy_Policy from './components/Documents/3DPRINTABLE PRIVACY POLICY.pdf';
