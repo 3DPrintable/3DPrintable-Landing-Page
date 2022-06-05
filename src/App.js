@@ -135,7 +135,7 @@ const App = () => {
 
             {/* Start Footer */}
             <footer class="bg-footer">
-                <div class="container-fluid px-0">
+                {/* <div class="container-fluid px-0">
                     <div class="py-4">
                         <div class="container">
                             <div class="row align-items-center">
@@ -159,7 +159,7 @@ const App = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div class="footer-py-30 footer-border-top">
                     <div class="container">

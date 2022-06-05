@@ -31,7 +31,7 @@ const Team = () => {
                     <div className="cardprofile">
                         <a href="#/"><img alt="bryce" src={bryce}></img></a>
                         <h1>Bryce Palichuk</h1>
-                        <p class="title">Co-Founder</p>
+                        <p class="title">Founder</p>
                         <p>Bryce Palichuk is a Mechanical Engineer, who is a 3D printing and blockchain technology enthusiast</p>
                         {/* <a href="#/"><i class="fa fa-dribbble"></i></a>
                         <a href="#/"><i class="fa fa-twitter"></i></a>
@@ -42,7 +42,7 @@ const Team = () => {
                     <div className="cardprofile">
                         <a href="#/" ><img alt="bryce" src={erik} height="400px" width="315px" style={{marginTop: '25px'}}></img></a>
                         <h1>Erik Thornborough</h1>
-                        <p class="title">Co-Founder</p>
+                        <p class="title">Founder</p>
                         <p>Erik Thornborough is a Finance Professional who has a passion for emerging technology and their applications in a fast paced market</p>
                         {/* <a href="#/"><i class="fa fa-dribbble"></i></a>
                         <a href="#/"><i class="fa fa-twitter"></i></a>

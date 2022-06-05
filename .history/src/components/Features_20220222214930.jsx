@@ -49,11 +49,11 @@ const Features = () => {
                                 <i class="uil uil-browser d-block mx-auto rounded h3 mb-0"></i>
                             </div>
                             <div class="content mt-4">
-                                <a href="/#" id="a" class="text-dark h5 title">ERC-1155 NFTs</a>
+                                <a href="/#" id="a" class="text-dark h5 title">ERC-721 and ERC-1155 NFTs</a>
                                 <p class="text-muted mt-3 mb-0">NFT Standardization</p>
-                                {/* <div class="mt-2">
+                                <div class="mt-2">
                                     <a href="http://erc721.org/" target="_blank" rel="noopener noreferrer" class="link">ERC 721 Link</a>
-                                </div> */}
+                                </div>
                                 <div class="mt-2">
                                     <a href="https://enjin.io/erc-1155" target="_blank" rel="noopener noreferrer" class="link">ERC 1155 Link</a>
                                 </div>

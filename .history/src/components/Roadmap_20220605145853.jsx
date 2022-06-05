@@ -60,7 +60,7 @@ const Roadmap = () => {
 							</div>
 
 							<div class="tiny-slide text-center">
-								<div class="card pt-4 border-0 feature key-feature feature-light bg-primary item-box">
+								<div class="card pt-4 border-0 feature key-feature feature-light item-box">
 									<div class="icon text-center rounded-pill mx-auto mb-3 fs-5">
 										<i class="iconify" data-icon="ic:baseline-rocket-launch"></i>
 									</div>
@@ -70,7 +70,7 @@ const Roadmap = () => {
 								</div>
 							</div>
 
-							<div class="tiny-slide text-center">
+							{/* <div class="tiny-slide text-center">
 								<div class="card pt-4 border-0 feature key-feature feature-primary item-box">
 									<div class="icon text-center rounded-pill mx-auto mb-3 fs-5">
 										<i class="iconify" data-icon="healthicons:market-stall"></i>
@@ -98,14 +98,14 @@ const Roadmap = () => {
 									<p class="text-muted mb-0">Q4, 2022</p>
 									<h6 class="mb-0 mt-1">Onboard 3D Printing Farms</h6>
 								</div>
-							</div>
+							</div> */}
 
 							<div class="tiny-slide text-center">
-								<div class="card pt-4 border-0 feature key-feature feature-primary item-box">
+								<div class="card pt-4 border-0 feature key-feature feature-light bg-primary item-box">
 									<div class="icon text-center rounded-pill mx-auto mb-3 fs-5">
 										<i class="iconify" data-icon="wpf:future"></i>
 									</div>
-									<p class="text-muted mb-0">Q1, 2023</p>
+									<p class="text-muted mb-0">Q2, 2022</p>
 									<h6 class="mb-0 mt-1">More to come...</h6>
 								</div>
 							</div>

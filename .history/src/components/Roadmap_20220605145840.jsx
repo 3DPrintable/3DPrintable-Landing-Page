@@ -60,7 +60,7 @@ const Roadmap = () => {
 							</div>
 
 							<div class="tiny-slide text-center">
-								<div class="card pt-4 border-0 feature key-feature feature-light item-box">
+								<div class="card pt-4 border-0 feature key-feature feature-light bg-primary item-box">
 									<div class="icon text-center rounded-pill mx-auto mb-3 fs-5">
 										<i class="iconify" data-icon="ic:baseline-rocket-launch"></i>
 									</div>

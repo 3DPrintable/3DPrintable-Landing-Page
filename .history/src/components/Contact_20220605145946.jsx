@@ -80,7 +80,7 @@ const Contact = () => {
 
             <div class="container mt-100 mt-60">
                 <div class="row">
-                    {/* <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="feature feature-primary feature-clean text-center rounded px-4">
                             <div class="icons text-center">
                                 <i class="uil uil-phone d-block mx-auto rounded h3 mb-0"></i>
@@ -94,7 +94,7 @@ const Contact = () => {
                                 <a href="tel:+14037968683" class="link">+1 (403) 796-8683</a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="feature feature-primary feature-clean text-center rounded px-4">
