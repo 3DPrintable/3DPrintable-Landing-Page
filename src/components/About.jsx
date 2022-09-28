@@ -26,7 +26,7 @@ const About = () => {
                                 blockchain currency (such as ETH) or a stablecoin (such as USDC). The choice is up to the 
                                 creator on what medium exchange and value they desire. Once the NFT token has been
                                 minted to a public blockchain, the NFT owner can list the file for sale on any third party 
-                                marketplace built within that blokchcain ecosystem. 
+                                marketplace built within that blockchain ecosystem. 
                             </p>
                         </div>
                     </div>
